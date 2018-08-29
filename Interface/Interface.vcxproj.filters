@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{c330cab1-78a9-4ec4-bc2a-264c2243cd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{5be83bf1-fb2f-4e6f-9bb4-0f85746fe029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\GUI">
+      <UniqueIdentifier>{4fa00b52-49f2-46b8-8399-407889574e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual">
+      <UniqueIdentifier>{2c47f3cb-9a63-454f-8e21-2a40e4f2066a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{9e613b09-3552-433f-8580-84578ec5cb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{ed6734dd-43d5-4ae4-b557-00c71e2ab07d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CallbackManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\Encoder.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CallbackManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Array.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassManager.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\Encoder.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Archiver.h">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

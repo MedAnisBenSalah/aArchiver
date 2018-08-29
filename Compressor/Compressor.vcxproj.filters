@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{e99064ae-9c4c-4441-bf90-eeb6d94cfbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{9b4c2b59-40ce-474c-b25c-fd76bef7b7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archiver">
+      <UniqueIdentifier>{1e2d497b-5815-4228-a559-650254b96c60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Shared\Encoder.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="Archiver.cpp">
+      <Filter>Archiver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\Array.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\Shared\Encoder.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Archiver.h">
+      <Filter>Archiver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
